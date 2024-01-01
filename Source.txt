@@ -15130,7 +15130,7 @@ end
  TextClickButton.Size = UDim2.new(0, 2, 0, 33)
  TextClickButton.Font = Enum.Font.SourceSansBold
  TextClickButton.Text = "Nameless Admin " .. currentversion .. ""
- TextClickButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+ TextClickButton.TextColor3 = Color3.fromRGB(0, 255, 0)
  TextClickButton.TextSize = 20.000
  TextClickButton.TextWrapped = true
  
@@ -15147,7 +15147,7 @@ end
 	 textclickbutton:TweenSize(UDim2.new(0, 32, 0, 33), "Out", "Quint",1,true)
 	 textclickbutton:TweenPosition(UDim2.new(0.48909232, 0, 0, 0), "Out", "Quint",1,true)
 	 wait(0.4)
-	 textclickbutton.Text = "NA"
+	 textclickbutton.Text = "ANON"
 	 textclickbutton.Active = true
  gui.draggable(textclickbutton)
  end
