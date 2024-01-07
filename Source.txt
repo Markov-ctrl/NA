@@ -2044,7 +2044,7 @@ print(Time)
  end)
  
  hiddenfling = false
- cmd.add({"walkfling", "wfling"}, {"walkfling (wfling) [THANKS TO X]", "probably the best fling lol"}, function()
+ cmd.add({"curse", "wfling", "walkfling"}, {"walkfling (wfling, curse) [THANKS TO X]", "probably the best fling lol"}, function()
 	 Notify({
 		 Description = "Walkfling enabled";
 		 Title = "Nameless Admin";
