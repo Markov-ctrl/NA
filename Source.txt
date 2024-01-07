@@ -6522,7 +6522,7 @@ end
 	 TextButton.Size = UDim2.new(0.043, 0,0.083, 0)
 	 TextButton.Font = Enum.Font.SourceSansBold
 	 TextButton.Text = "Fly"
-	 TextButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+	 TextButton.TextColor3 = Color3.fromRGB(255, 0, 0)
 	 TextButton.TextSize = 15.000
 	 TextButton.TextWrapped = true
 	 TextButton.Active = true
@@ -6539,12 +6539,12 @@ end
 			 script.Parent.MouseButton1Click:Connect(function()
 	   if on == false then
  on = true
-						 script.Parent.Text = "Unfly"
+						 script.Parent.Text = "unfly"
  mobilefly(speed)
 		 elseif on == true then
  on = false
  unmobilefly()
- script.Parent.Text = "Fly"
+ script.Parent.Text = "fly"
 			 end
 		 end)
 	 end
